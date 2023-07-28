@@ -31,7 +31,7 @@
 							<input type="text" id="member-age" name="member-age" value="${member.memberAge }" readonly>
 						</li>
 						<li>
-							<label for="member-gender">성별</label>
+							<label for="member-gender">성별 </label>
 							<input type="hidden" id="member-gender" name="member-gender" value="${member.memberGender }">
 							<c:if test="${member.memberGender eq 'M' }">남자</c:if>
 							<c:if test="${member.memberGender eq 'F' }">여자</c:if>
